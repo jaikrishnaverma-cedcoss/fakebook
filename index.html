@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+      <div class="container-fluid px-md-4 mx-md-4">
+        <button class="navbar-brand btn btn-blue" href="#"><i class="bi bi-megaphone-fill"></i></button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+        <div class="input-group  btn-grey p-1 rounded" style="max-width:300px">
+  <span class="input-group-text border-0  btn-grey" id="basic-addon1"><i class="bi bi-search"></i></span>
+  <input type="text" class="form-control border-0 btn-grey" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+          <div class="ms-auto d-flex flex-column flex-md-row flex-lg-row align-items-md-center">
+            <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold text-primary" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Demo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  My Network
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav  my-2 my-lg-0 ">
+              <li class="nav-item dropdown m-2 col-12">
+                <button class="btn btn-grey m-2"><i class="bi bi-chat-left-text-fill"></i></button>
+                <button class="btn btn-grey m-2"><i class="bi bi-gear-fill"></i></button>
+                <button class="btn btn-grey m-2"><i class="bi bi-bell-fill"></i></button>
+                <button class="btn btn-profile m-2" style="color: transparent;"><i
+                    class="bi bi-chat-left-text-fill"></i></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-2 overflow-hidden bg-light">
+      <div class="col-11 rounded d-flex justify-content-around flex-column flex-md-row overflow-hidden col-12 bg-light">
+        <div
+          class="col-12 col-md-3  rounded-3 overflow-hidden mt-3 d-flex flex-column align-items-center p-2 bg-white shadow-lg">
+          <div class="col-12 rounded bg-warning p-5 position-relative ">
+            <button class="btn btn-profile p-4 border-light border-5 position-absolute profile"
+              style="color: transparent;"><i class="bi bi-chat-left-text-fill"></i></button>
+          </div>
+          <p class="fs-4 fw-bolder mt-5 mb-0">Sam Lanson</p>
+          <p class="fs-6 text-secondary">Web Developer at Webestica</p>
+          <p class="fs-6 text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui
+            inventore.</p>
+          <div class="d-flex col-12 justify-content-center py-3 border-bottom">
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center ">
+              <p class="fw-bolder fs-5 mb-0">256</p>
+              <p class="fs-6 mb-0 text-secondary">Post</p>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center border-start border-end">
+              <p class="fw-bolder fs-5 mb-0">2.5K</p>
+              <p class="fs-6 mb-0 text-secondary">Followers</p>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center ">
+              <p class="fw-bolder fs-5 mb-0">365</p>
+              <p class="fs-6 mb-0 text-secondary">Following</p>
+            </div>
+          </div>
+          <div class="d-flex flex-column col-12 justify-content-center py-3 border-bottom">
+            <p class="fw-bolder ms-4"><i class="bi text-primary bi-house-door-fill me-2"></i>Feeds</p>
+            <p class="fw-bolder ms-4"><i class="bi bi-person-badge-fill me-2"></i>Connections</p>
+            <p class="fw-bolder ms-4"><i class="bi text-primary bi-globe-central-south-asia me-2"></i>Latest News</p>
+            <p class="fw-bolder ms-4"><i class="bi text-warning bi-calendar2-event-fill me-2"></i>Events</p>
+            <p class="fw-bolder ms-4"><i class="bi text-success bi-wechat me-2"></i>Groups</p>
+            <p class="fw-bolder ms-4"><i class="bi text-danger bi-bell-fill me-2"></i>Notifications</p>
+            <p class="fw-bolder ms-4"><i class="bi text-info bi-gear-fill me-2"></i>settings</p>
+            <p class="col-12 text-center fw-bold text-primary p-3 border-top mb-0 pb-0">View Profile</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-5   mt-3 ">
+
+          <div class="col-12 d-flex  rounded-3 overflow-hidden">
+            <div class="rounded me-3 bg-white d-flex align-items-center justify-content-center addstory" >
+              <button class="d-flex justify-content-center align-items-center add-icon btn-grey rounded-circle btn fs-2 col-2">
+                <i class="bi bi-plus rounded-circle"></i>
+              </button>
+            </div>
+            <img src="dgfhfghfg.png" alt="..." class="rounded me-3" style="max-height: 130px">
+            <img src="dgfhfghfg.png" alt="..." class="rounded me-3" style="max-height: 130px">
+            <img src="dgfhfghfg.png" alt="..." class="rounded me-3" style="max-height: 130px">
+            <img src="dgfhfghfg.png" alt="..." class="rounded me-3" style="max-height: 130px">
+            <img src="dgfhfghfg.png" alt="..." class="rounded me-3" style="max-height: 130px">
+            <img src="dgfhfghfg.png" alt="..." class="rounded me-3" style="max-height: 130px">
+          </div>
+
+          <div class="col-12 mt-4 bg-white rounded shadow-lg p-3">
+            <div class="col-10 my-2 d-flex align-items-center">
+              <img src="dgfhfghfg.png" class="rounded-circle profile-circle mx-3 " alt="">
+              <div class="flex-column col-12">
+                <input type="text" class="form-control border-0 col-12 fs-5" placeholder="Share your thoughts...">
+              </div>
+            </div>
+            <div class="col-11 my-4 px-2 d-flex align-items-center justify-content-between" style="width:93.666667%;">
+             <div class="d-flex align-items-center col-12">
+              <div class="btn btn-grey btn-sm me-1"><i class="bi bi-image-fill me-2 text-success"></i>Photo</div>
+              <div class="btn btn-grey btn-sm me-1"><i class="bi bi-camera-reels-fill me-2 text-primary"></i>Video</div>
+              <div class="btn btn-grey btn-sm me-1"><i class="bi bi-calendar2-event-fill me-2 text-danger"></i>Event</div>
+              <div class="btn btn-grey btn-sm me-1"><i class="bi bi-emoji-smile-fill me-2 text-warning"></i>Felling/Activity</div>
+             </div>
+              <div class="btn btn-grey btn-sm"><i class="bi bi-three-dots  text-dark"></i></div>
+            </div>
+         
+          </div>
+
+          <div class="col-12 mt-4 bg-white rounded shadow-lg p-3">
+            <div class="col-9 d-flex">
+              <img src="dgfhfghfg.png" class="rounded-circle profile-circle me-3" alt="">
+              <div class="flex-column">
+                <p class="fs-6 mb-0 fw-bolder">jai krishna verma <span class=" text-secondary fs-6 fw-bold"><i class="bi bi-dot mx-2 fs-5"></i>2hr</span> </p>
+                <p class="text-secondary mb-0 fs-6 fw-normal">React Developer</p>
+              </div>
+            </div>
+            <p class="fs-6 text-secondary my-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dignissimos eum blanditiis?
+            </p>
+            <img src="https://s3images.zee5.com/wp-content/uploads/2021/08/toyota-concept-i.jpeg" alt="" class="w-100 rounded">
+            <div class="col-12 my-4 px-2 d-flex align-items-center justify-content-between" >
+              <div class="d-flex align-items-center col-10">
+                <div class="btn btn-white btn-sm me-1 p-0 text-primary me-3"><i class="bi bi-hand-thumbs-up-fill me-1 "></i>Liked(56)</div>
+               <div class="btn btn-white btn-sm me-1 p-0 text-secondary me-3"><i class="bi bi-chat-fill me-1"></i>Comments(12)</div>
+              </div>
+              <div class="btn btn-white btn-sm me-1 p-0 text-secondary"><i class="bi bi-share-fill me-1"></i>Share(3)</div>
+             </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-3  mt-3">
+          <div class="col-12 shadow-lg rounded-3 p-2 py-3">
+            <p class="fs-5 fw-bold m-3 mt-2">Who to follow</p>
+            <div class="fs-5 fw-bold m-3 d-flex justify-content-between">
+              <div class="col-9 d-flex">
+                <img src="dgfhfghfg.png" class="rounded-circle profile-circle me-3" alt="">
+                <div class="flex-column">
+                  <p class="fs-6 mb-0 fw-bolder">jai krishna verma</p>
+                  <p class="text-secondary mb-0 fs-6 fw-normal">React Developer</p>
+                </div>
+              </div>
+              <button class="d-flex justify-content-center align-items-center add-icon rounded-circle btn fs-2 col-2">
+                <i class="bi bi-plus rounded-circle"></i>
+              </button>
+
+            </div>
+            <div class="fs-5 fw-bold m-3 d-flex justify-content-between">
+              <div class="col-9 d-flex">
+                <img src="dgfhfghfg.png" class="rounded-circle profile-circle me-3" alt="">
+                <div class="flex-column">
+                  <p class="fs-6 mb-0 fw-bolder">jai krishna verma</p>
+                  <p class="text-secondary mb-0 fs-6 fw-normal">React Developer</p>
+                </div>
+              </div>
+              <button class="d-flex justify-content-center align-items-center add-icon rounded-circle btn fs-2 col-2">
+                <i class="bi bi-plus rounded-circle"></i>
+              </button>
+
+            </div>
+            <div class="fs-5 fw-bold m-3 d-flex justify-content-between">
+              <div class="col-9 d-flex">
+                <img src="dgfhfghfg.png" class="rounded-circle profile-circle me-3" alt="">
+                <div class="flex-column">
+                  <p class="fs-6 mb-0 fw-bolder">jai krishna verma</p>
+                  <p class="text-secondary mb-0 fs-6 fw-normal">React Developer</p>
+                </div>
+              </div>
+              <button
+                class="d-flex justify-content-center align-items-center add-icon-active rounded-circle btn fs-2 col-2">
+                <i class="bi bi-person-check-fill fs-5 rounded-circle"></i>
+              </button>
+
+            </div>
+            <div class="fs-5 fw-bold m-3 d-flex justify-content-between">
+              <div class="col-9 d-flex">
+                <img src="dgfhfghfg.png" class="rounded-circle profile-circle me-3" alt="">
+                <div class="flex-column">
+                  <p class="fs-6 mb-0 fw-bolder">jai krishna verma</p>
+                  <p class="text-secondary mb-0 fs-6 fw-normal">React Developer</p>
+                </div>
+              </div>
+              <button class="d-flex justify-content-center align-items-center add-icon rounded-circle btn fs-2 col-2">
+                <i class="bi bi-plus rounded-circle"></i>
+              </button>
+
+            </div>
+            <div class="fs-5 fw-bold m-3 d-flex justify-content-between">
+              <div class="col-9 d-flex">
+                <img src="dgfhfghfg.png" class="rounded-circle profile-circle me-3" alt="">
+                <div class="flex-column">
+                  <p class="fs-6 mb-0 fw-bolder">jai krishna verma</p>
+                  <p class="text-secondary mb-0 fs-6 fw-normal">React Developer</p>
+                </div>
+              </div>
+              <button class="d-flex justify-content-center align-items-center add-icon rounded-circle btn fs-2 col-2">
+                <i class="bi bi-plus rounded-circle"></i>
+              </button>
+
+            </div>
+            <button class="bgblue fontblue btn col-11 ms-3">View more</button>
+          </div>
+          <div class="col-12 mt-4 shadow-lg rounded-3 bg-white p-4">
+            <p class="fs-5 fw-bold mb-3 mt-0">Today's news</p>
+
+            <div class="col-12">
+              <p class="fs-6 fw-bold mb-0">Lorem ipsum dolor sit amet se consectetur elit. Doloribus, libero?</p>
+              <p class="fs-6 fw-light text-secondary mb-2">2hr</p>
+            </div>
+            <div class="col-12">
+              <p class="fs-6 fw-bold mb-0">Lorem ipsum dolor sit amet se consectetur elit. Doloribus, libero?</p>
+              <p class="fs-6 fw-light text-secondary mb-2">2hr</p>
+            </div>
+            <div class="col-12">
+              <p class="fs-6 fw-bold mb-0">Lorem ipsum dolor sit amet se consectetur elit. Doloribus, libero?</p>
+              <p class="fs-6 fw-light text-secondary mb-2">2hr</p>
+            </div>
+            <div class="col-12">
+              <p class="fs-6 fw-bold mb-0">Lorem ipsum dolor sit amet se consectetur elit. Doloribus, libero?</p>
+              <p class="fs-6 fw-light text-secondary mb-2">2hr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
